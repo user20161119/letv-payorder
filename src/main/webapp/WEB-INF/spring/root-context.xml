@@ -43,9 +43,9 @@
         <property name="dataSource">
             <bean class="org.jfaster.mango.datasource.DriverManagerDataSource">
                 <property name="driverClassName" value="com.mysql.jdbc.Driver" />
-                <property name="url" value="jdbc:mysql://localhost:3306/db1" />
-                <property name="username" value="root" />
-                <property name="password" value="root" />
+                <property name="url" value="jdbc:mysql://10.100.201.18:3306/db1" />
+                <property name="username" value="dfyh" />
+                <property name="password" value="4*yRF9vxt9UM" />
             </bean>
         </property>
     </bean>
@@ -54,9 +54,9 @@
         <property name="dataSource">
             <bean class="org.jfaster.mango.datasource.DriverManagerDataSource">
                 <property name="driverClassName" value="com.mysql.jdbc.Driver" />
-                <property name="url" value="jdbc:mysql://localhost:3306/db2" />
-                <property name="username" value="root" />
-                <property name="password" value="root" />
+                <property name="url" value="jdbc:mysql://10.100.201.18:3306/db2" />
+                <property name="username" value="dfyh" />
+                <property name="password" value="4*yRF9vxt9UM" />
             </bean>
         </property>
     </bean>
@@ -65,9 +65,9 @@
         <property name="dataSource">
             <bean class="org.jfaster.mango.datasource.DriverManagerDataSource">
                 <property name="driverClassName" value="com.mysql.jdbc.Driver" />
-                <property name="url" value="jdbc:mysql://localhost:3306/db3" />
-                <property name="username" value="root" />
-                <property name="password" value="root" />
+                <property name="url" value="jdbc:mysql://10.100.201.18:3306/db3" />
+                <property name="username" value="dfyh" />
+                <property name="password" value="4*yRF9vxt9UM" />
             </bean>
         </property>
     </bean>
@@ -76,9 +76,9 @@
         <property name="dataSource">
             <bean class="org.jfaster.mango.datasource.DriverManagerDataSource">
                 <property name="driverClassName" value="com.mysql.jdbc.Driver" />
-                <property name="url" value="jdbc:mysql://localhost:3306/db4" />
-                <property name="username" value="root" />
-                <property name="password" value="root" />
+                <property name="url" value="jdbc:mysql://10.100.201.18:3306/db4" />
+                <property name="username" value="dfyh" />
+                <property name="password" value="4*yRF9vxt9UM" />
             </bean>
         </property>
     </bean>
@@ -87,9 +87,9 @@
         <property name="dataSource">
             <bean class="org.jfaster.mango.datasource.DriverManagerDataSource">
                 <property name="driverClassName" value="com.mysql.jdbc.Driver" />
-                <property name="url" value="jdbc:mysql://localhost:3306/db5" />
-                <property name="username" value="root" />
-                <property name="password" value="root" />
+                <property name="url" value="jdbc:mysql://10.100.201.18:3306/db5" />
+                <property name="username" value="dfyh" />
+                <property name="password" value="4*yRF9vxt9UM" />
             </bean>
         </property>
     </bean>
@@ -98,9 +98,9 @@
         <property name="dataSource">
             <bean class="org.jfaster.mango.datasource.DriverManagerDataSource">
                 <property name="driverClassName" value="com.mysql.jdbc.Driver" />
-                <property name="url" value="jdbc:mysql://localhost:3306/db6" />
-                <property name="username" value="root" />
-                <property name="password" value="root" />
+                <property name="url" value="jdbc:mysql://10.100.201.18:3306/db6" />
+                <property name="username" value="dfyh" />
+                <property name="password" value="4*yRF9vxt9UM" />
             </bean>
         </property>
     </bean>
@@ -109,9 +109,9 @@
         <property name="dataSource">
             <bean class="org.jfaster.mango.datasource.DriverManagerDataSource">
                 <property name="driverClassName" value="com.mysql.jdbc.Driver" />
-                <property name="url" value="jdbc:mysql://localhost:3306/db7" />
-                <property name="username" value="root" />
-                <property name="password" value="root" />
+                <property name="url" value="jdbc:mysql://10.100.201.18:3306/db7" />
+                <property name="username" value="dfyh" />
+                <property name="password" value="4*yRF9vxt9UM" />
             </bean>
         </property>
     </bean>
@@ -120,9 +120,9 @@
         <property name="dataSource">
             <bean class="org.jfaster.mango.datasource.DriverManagerDataSource">
                 <property name="driverClassName" value="com.mysql.jdbc.Driver" />
-                <property name="url" value="jdbc:mysql://localhost:3306/db8" />
-                <property name="username" value="root" />
-                <property name="password" value="root" />
+                <property name="url" value="jdbc:mysql://10.100.201.18:3306/db8" />
+                <property name="username" value="dfyh" />
+                <property name="password" value="4*yRF9vxt9UM" />
             </bean>
         </property>
     </bean>

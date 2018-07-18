@@ -16,6 +16,7 @@ public class Order {
     private int price;
 
     private int status;
+    
 
     public String getId() {
         return id;

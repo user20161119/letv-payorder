@@ -1,13 +1,15 @@
 package com.letv.pay.dao;
 
-import com.letv.pay.pojo.Order;
+import java.util.List;
+
 import org.jfaster.mango.annotation.DB;
 import org.jfaster.mango.annotation.SQL;
 import org.jfaster.mango.annotation.Sharding;
 import org.jfaster.mango.annotation.ShardingBy;
 import org.jfaster.mango.sharding.ShardingStrategy;
 
-import java.util.List;
+import com.letv.pay.pojo.Order;
+import com.letv.pay.util.ShardUtil;
 
 /**
  * @author ash
@@ -47,12 +49,12 @@ public interface OrderDao {
 
         @Override
         public String getDataSourceFactoryName(Integer userId) {
-            return "dsf" + ((userId / 10) % 8 + 1);
+            return "dsf" + ShardUtil.getDBInfoByUserId(userId);
         }
 
         @Override
         public String getTargetTable(String table, Integer userId) {
-            return table + "_" + (userId % 10);
+            return table + "_" + (ShardUtil.getTableInfoByUserId(userId));
         }
     }
 
